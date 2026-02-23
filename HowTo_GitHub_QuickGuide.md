@@ -164,13 +164,13 @@ git clone https://github.com/[githubuser]/[nomerepositório].git
 
 ## 3. Sequência lógica de ações para manutenção de um projeto
 
-<span>1. Clonar o repositório no github para uma pasta local</span>
-<span>2. Se posicionar na pasta local</span>
-<span>3. Realizar as manutenções e testes no projeto</span>
-<span>4. Adicionar os arquivos alterados ao git (1.3.6)</span>
-<span>5. Realizar o commit dos arquivos alterados (1.3.7)</span>
-<span>6. Realizar atualização do repositório no github< (1.3.10)<span>
-<span>7. Deletar a pasta local (1.3.11)</span>
+<span>3.1. Clonar o repositório no github para uma pasta local</span>
+<span>3.2. Se posicionar na pasta local</span>
+<span>3.3. Realizar as manutenções e testes no projeto</span>
+<span>3.4. Adicionar os arquivos alterados ao git (1.3.6)</span>
+<span>3.5. Realizar o commit dos arquivos alterados (1.3.7)</span>
+<span>3.6. Realizar atualização do repositório no github (1.3.10)<span>
+<span>3.7. Deletar a pasta local (1.3.11)</span>
 
 ## 4. Restaurando arquivos
 

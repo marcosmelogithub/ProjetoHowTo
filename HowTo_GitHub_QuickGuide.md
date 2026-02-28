@@ -94,6 +94,53 @@
 >> **b)** Essa ação pode se confundir com o *clone*, mas tem uma diferença sutil:
 >>> vamos imaginar que durante a manutenção do repositório local foi criado um novo arquivo e e alterado outros, mas notou que as alterações nos arquivos que vieram com o *clone* não deviam ter sido alterados, mas o novo arquivo deve ser mantido, então o *git restore .* irá trazer todos os arquivos do último *commit* enviado ao github e ainda manter os arquivos criados e assim que um novo *push* for realizado terá um novo *commit* atualizado, inclusive com os novos arquivos
 >>> se usar o *git clone*, toda a pasta local será substituída e os novos arquivos serão perdidos, pois a pasta local se tornará idêntica ao último *commit* enviado ao github
+
+**1.12** Listar branches
+>**Comando**
+>```git branch```
+>> **a)** Listará todas as branches do repositório
+>> **b)** A branch ativa terá um "*" antes do nome da branch
+
+**1.13** Alternar entre as branches existentes
+>**Comando**
+>```git checkout [nome-da-branch]
+
+**1.14** Criar uma nova branch a partir da branch ativa
+>**Comando**
+> git checkout -b [nome-da-nova-branch]
+>> **a)** Uma nova branch será criada com o mesmo conteúdo da branch ativa
+>> **b)** Uma prática para nomear uma branch é:
+>>> - inserir feature/ ou bug/ e logo depois da barra o nome da branch
+>>> - feature/ para implementações, alterações ou evoluções
+>>> - bug/ para correção de bugs
+
+**1.15** Fazer o push da nova branch para o github 
+>**Comando**
+>```git push --set-upstream origin [nome-da-nova-branch]```
+>> **a)** Após esse comando o github terá duas branchs, a main, que é a branch quando o repositório foi criado e a nova branch criada
+>> **b)** Esse comando, com o parâmetro *--set-upstream*, só é necessário quando se cria uma nova branch
+>> **c)** Se fizer novas alterações na branch, basta dar o comando *git push origin [nome-da-branch]
+
+**1.16** Deletar um branch
+>**Comando**
+>```git branch -d [nome-da-branch]```
+>> **a)** Para deletar um branch, ela não pode ser a branch ativa, ou seja, quando listar as branches, ele não pode estar com um asterico antes do nome
+
+**1.17** Atualizar a branch local com a branch do github
+>**Comando**
+>```git pull```
+>> **a)** Esse comando é dado estando na branch selecionada.
+>> **b)** Irá sincronizar a branch local com a branch do github
+
+
+**1.15** ***MUITO IMPORTANTE*** entender sobre branches
+> **i)** Como boa prática não se trabalha diretamente na branch ***main***, que é a branch principal, criada quando o repositório foi criado e normalmente é a branch de produção.
+> **ii)** Quando se fizer o push não corre o risco de alterar a branch ***main*** com algo que possa estar errado ou indevido, aumentando assim a proteção da ***main***.
+> **iii)** Criando uma branch nova, a partir da ***main*** para se trabalhar, pode-se ter um time com vários desenvolvedores, cada um na sua branch, e ninguém interfere na branch do outro e nem corre o risco de criar algum problema na branch ***main***.
+> **iv)** Posteriormente, o lider ou responsável pelo projeto, irá fazer um merge de todas as branches que foram *"pushed"* no github para a branch ***main*** e fazer o *deployment* em produção da nova versão.
+> **v)** Após fazer o merge da branch de desenvolvimento com a main, pode-se excluir a branch no github ou mesmo deixá-la para efeito de histórico, vai depender das diretrizes da gestão do projeto.
+
+
 ---
 ### 2. Sequência lógica para um novo repositório
 

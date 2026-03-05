@@ -4,7 +4,7 @@
 
 ### **1. SCRUM**
 <figure align="center">
-  <img src="https://github.com/marcosmelogithub/ProjetoHowTo/blob/main/imgs/scrum.jpg" alt="Scrum Process" width="600">
+  <img src="imgs/scrum.jpg" alt="Scrum Process" width="600">
   <figcaption>Figura 1: Representação visual do fluxo SCRUM.</figcaption>
 </figure>
 

@@ -3,10 +3,7 @@
 
 
 ### **1. SCRUM**
-<figure align="center">
-  <img src="imgs/scrum.jpg" alt="Diagrama do fluxo do SCRUM" width="600">
-  <figcaption>Figura 1: Representação visual do fluxo do SCRUM.</figcaption>
-</figure>
+![Figura 1. Representação visual do fluxo do SCRUM](imgs/scrum.jpg "Fluxo Scrum")
 
 ### **2. KANBAN**
 <figure align="center">

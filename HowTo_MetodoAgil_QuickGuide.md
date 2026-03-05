@@ -3,7 +3,10 @@
 
 
 ### **1. SCRUM**
-![Figura 1. Representação visual do fluxo do SCRUM](imgs/scrum.jpg "Fluxo Scrum")
+<figure align="center">
+  <img src="https://github.com/marcosmelogithub/ProjetoHowTo/blob/main/imgs/scrum.jpg" alt="Scrum Process" width="600">
+  <figcaption>Figura 1: Representação visual do fluxo SCRUM.</figcaption>
+</figure>
 
 ### **2. KANBAN**
 <figure align="center">

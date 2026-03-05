@@ -1,4 +1,4 @@
-# ***Markdown***
+# Markdown
 
 > [Síntaxes Markdown](https://github.com/marktext/marktext/blob/master/docs/MARKDOWN_SYNTAX.md#markdown-syntax)
 

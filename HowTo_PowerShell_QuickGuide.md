@@ -7,20 +7,22 @@
 
 **Opção 2. Copiar arquivos**
 >**Comando**
+>
 >```Copy-Item -Path "Origem" -Destination "Destino"```
 
 **Opção 3. Gerar uma lista com valores únicos da extensão dos arquivos**
 >**Comando**
+>
 >```clear; $out = Read-Host "Informe o nome do arquivo para salvar a lista (ou deixe vazio para exibir na tela)"; $dados = Get-ChildItem -File | Group-Object Extension | Sort-Object Name | ForEach-Object { [PSCustomObject]@{ Extensao = $_.Name.TrimStart('.'); Quantidade = $_.Count } }; if ($out) { $dados | Export-Csv -Path $out -NoTypeInformation -Delimiter ',' -Encoding utf8; Write-Host "`nRelatorio salvo em: $out" -ForegroundColor Green } else { $dados | Format-Table -AutoSize }; $total = ($dados | Measure-Object -Property Quantidade -Sum).Sum; Write-Host "`nTotal de arquivos listados: $total" -ForegroundColor Cyan;Read-Host "Pressione qualquer tecla para prosseguir..."```
 >> Esse comando não irá simplesmente listar as extensões únicas dos arquivos da pasta.
 >> A sequência será:
->>>**1.** solicitar o nome do arquivo onde se deseja salvar a listagem
->>>**2.** listar todos os arquivos na pasta onde o comando foi executado
->>>**3.** extrair a extensão de cada arquivo
->>>**4.** ordenar em ordem crescente a lista das extensões
->>>**5.** para cada extensão, irá retirar o "." no início do nome da extensão
->>>**6.** para cada extensão, irá contar quantos arquivos existem referentes àquela extensão
->>>**7.** no final da execução será exibida a quantidade de arquivos listados
+>>>- **1.** solicitar o nome do arquivo onde se deseja salvar a listagem
+>>>- **2.** listar todos os arquivos na pasta onde o comando foi executado
+>>>- **3.** extrair a extensão de cada arquivo
+>>>- **4.** ordenar em ordem crescente a lista das extensões
+>>>- **5.** para cada extensão, irá retirar o "." no início do nome da extensão
+>>>- **6.** para cada extensão, irá contar quantos arquivos existem referentes àquela extensão
+>>>- **7.** no final da execução será exibida a quantidade de arquivos listados
 >>>> Se o nome do arquivo não for informado, a listagem será exibida na tela
 
 **Opção 4. Deletar uma pasta com suas subpastas e arquivos**

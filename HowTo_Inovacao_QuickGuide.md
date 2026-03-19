@@ -148,7 +148,7 @@ mindmap
 2. O foco atual não é apenas "ter ideias", mas sim velocidade de experimentação e integração de IA na estratégia.
 
 <font color="brown" size=5px><b><u>Modelos Estratégicos</u></b></font>
->O objetivos é garantir que a inovação não seja apenas incremental, mas disruptiva
+>O objetivo é garantir que a inovação não seja apenas incremental, mas disruptiva
 
 |MODELO|DESCRIÇÃO|
 |:--|:--|
@@ -157,7 +157,7 @@ mindmap
 |**3. Inovação de Valor (Oceano Azul)**|continua sendo o pilar para empresas que buscam criar novos mercados em vez de apenas competir por preço.|
 |**Design Sprint 3.0**|Uma evolução do método do Google, agora fortemente assistido por IA generativa para prototipar soluções em apenas 2 ou 3 dias.|
 
-<font color="brown" size=5px><b><u>IA Agents: A "Nova Mão de Obra" de Inovação</u></b></font>
+<font color="brown" size=5px><b><u>AI Agents: A "Nova Mão de Obra" de Inovação</u></b></font>
 >Em 2026, a maior mudança foi a adoção de Agentes Autônomos de IA.
 
 |FUNÇÃO|DESCRIÇÃO|

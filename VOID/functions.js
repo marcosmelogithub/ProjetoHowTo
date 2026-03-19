@@ -118,10 +118,7 @@ function listMarkdownFiles() {
         })
         .then(data => {
             // Filtrar apenas arquivos .md que começam com "HowTo"
-            const mdFiles = data.filter(file => file.name.endsWith('.md') && file.name.startsWith('How'));
-            
-            // Classificar em ordem crescente pelo nome do arquivo
-            mdFiles.sort((a, b) => a.name.localeCompare(b.name));
+            const mdFiles = data.filter(file => file.name.endsWith('.md') && file.name.startsWith('HowTo'));
             
             if (mdFiles.length === 0) {
                 resultContainer.innerHTML = '<p>Nenhum arquivo .md encontrado no repositório.</p>';

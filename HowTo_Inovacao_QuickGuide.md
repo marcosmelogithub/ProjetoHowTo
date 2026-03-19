@@ -171,5 +171,5 @@ mindmap
 1. Empresas de alto nível tratam projetos de inovação como ativos financeiros.
 2. Se um projeto não atinge os marcos (milestones) definidos em 3 meses, ele é "matado" rapidamente (Kill Gates) para liberar orçamento para o próximo.
 
-<font color="brown" size=5px><b><u>Insight de 2026: </u></b></font>
+<font color="brown" size=5px><b><u>Insight de 2026</u></b></font>
 ><font color="#A0522D" size=5px>A inovação hoje é menos sobre "criatividade genial" e mais sobre rigor de dados e automação de processos repetitivos.</FONT>

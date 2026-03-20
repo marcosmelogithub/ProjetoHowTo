@@ -18,6 +18,9 @@
 12. [Curso de Canva Completo 2025](https://youtube.com/playlist?list=PLlSoD8PAohqREIhBkSXFGE_Uo2qVGMuL_&si=ToHKp_5mB_Ib9utd)
 13. [Design Thinking 2026](https://youtube.com/playlist?list=PLEiEAq2VkUUIz01StTtLRDtXwNVwjj-Nc&si=3tnRgV2t5Z2_fREi)
 12. [Curso de Design Thinking com Igor Drudi](https://youtube.com/playlist?list=PLbQOx47LDshR-EgUem4pdvlV6cW8OBVfb&si=yPpNC1JjEBAEM1Tt)
+13. [IA do Google para Criar Aplicativos - Como usar o Fire Base Studio](https://youtu.be/ICMgcQMgINk?si=Ws7-TB9M-U9auYNw)
+14. [O Google fez de novo: Crie e Publique um Sistema Completo com IA (100% Grátis)](https://youtu.be/JEESRkJ0fXA?si=YoQYDrX19aFa75jC)
+15. [Crie um APP completo do ZERO com IA (Antigravity + Claude Code)](https://youtu.be/mVGIUV_yN88?si=VMSHDnLStwTxmvh_)
 
 ### Outras Playlists
 1. [Anatomia na Prática](https://youtube.com/playlist?list=PLEBTdDKC3maEFrBmzuJMKbFVdRa2J6QLc&si=KWUdDL1LaJX_2rxa)

@@ -3,7 +3,7 @@
 > Framework para gerenciamento ágil de projetos
 
 ---
-> **Componentes do SCRUM**
+<font color="#4169E1" size=5px><b>Componentes do SCRUM</b</font>
 
 | Pilares | Papéis | Eventos | Artefatos |
 | :-- | :-- | :-- | :-- |
@@ -14,7 +14,7 @@
 | | | 5. Sprint Retrospective | |
 
 ---
-> **Os 3 blocos do SCRUM**
+<font color="#4169E1" size=5px><b>Os 3 blocos do SCRUM</b></font>
 
 | Artefatos | Papéis | Cerimônias |
 | :-- | :-- | :-- |
@@ -25,7 +25,7 @@
 
 
 ---
-> **Visão geral do fluxo do SCRUM**
+<font color="#4169E1" size=5px><b>Visão geral do fluxo do SCRUM</b></font>
 
 ```mermaid
 flowchart TD
@@ -92,7 +92,7 @@ flowchart TD
 > **Sprint Retrospective:** reunião realizada ao final da sprint com objetivo de analisar como foi realizada a sprint. identificando o que funcionou, o que não funcionou e o que pode ser melhorado, criando um plano de ação concreto para o próximo Sprint, focando na melhoria contínua
 
 ---
->**SCRUM Master x Product Owner**
+<font color="#4169E1" size=5px><b>SCRUM Master x Product Owner</b></font>
 
 |SCRUM Master|Product Owner|
 |:--|:--|

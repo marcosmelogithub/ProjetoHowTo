@@ -102,6 +102,8 @@ Diferente do bem-estar "hedônico" (bônus financeiros, festas, mimos rápidos),
 1.  **"Plato's Revenge: Politics in the Age of Ecology" (William Ophuls):** Embora focado em ecologia, discute como a estrutura de pensamento platônica é essencial para a governança de sistemas complexos, incluindo grandes corporações.
 2.  **"Virtue Ethics in Business" (Edwin Hartman):** Um dos maiores especialistas na aplicação da ética grega (incluindo Platão e Aristóteles) no ambiente de negócios. Ele defende que o caráter da organização molda o caráter do indivíduo.
 3.  **"The Republic of Business" (Vários autores/ensaios):** Frequentemente encontrado em coletâneas de filosofia para administradores, focando na ideia de "Justiça" dentro das hierarquias.
+4. **Introduction To Organizational Behavior** [ebook](https://www.amazon.com.br/Introduction-Organizational-Behavior-English-Tiwari-ebook/dp/B0BN3Z2W7H/ref=sr_1_5?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=31AUML6FCBMYG&dib=eyJ2IjoiMSJ9.lr9QM91sD-4ZUwBdhGfmujAE4NK5XQzH-YbYWJ08kQm6hsRoBQEAs_79NVbm3FDfetN7voKfe9vj0tFa1ZtEyOQHxHe7tPltDeD20R4VGOd7dIT2zjpJHb9JLmjfBtsuaBqmvup_-Ek40ycoEPFAb6e8BkWKmIUitZeDNkrStalisEzzPzyIPX4-V088BA-mZ-sJJbPn8x_RnizwXG9bqkp7cqqTgposfMXy_r4P6gl_gtzx9Q90wyhaAoJaAZozcPHYXYCPmxyAjApLwVY-Dxq84NF26n1e4prcuCY_4v4.FSvDalN1oX8qCBKlNP1Q4xYK_SiOER5P2-vehF3tEuw&dib_tag=se&keywords=Organizational+Behavior+Management+an+introduction&qid=1777234111&sprefix=organizational+behavior+management+an+introduction%2Caps%2C213&sr=8-5)
+ 
 
 ###### Artigos Acadêmicos
 * **"Platonic Business Ethics: A Survey of the Past and a Discussion of the Future" (S. Dunne & R. Cluley, 2022):** Um estudo abrangente que analisa centenas de artigos sobre como a obra de Platão influenciou a ética nos negócios.

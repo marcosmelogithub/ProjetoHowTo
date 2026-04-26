@@ -1,5 +1,5 @@
 
-# Como converter e concatenar vários arquivos em um único arquivo PDF usando linha de comando do Linux
+# Como converter e concatenar vários arquivos em um único arquivo PDF usando linha de comando do Linux Quick Guide
 
 ---
 

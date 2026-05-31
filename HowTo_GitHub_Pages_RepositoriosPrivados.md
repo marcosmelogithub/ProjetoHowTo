@@ -254,5 +254,5 @@ O motivo final pelo qual você nunca perderá seus arquivos é a própria nature
 <br>
 O Git é um sistema de controle de versão *distribuído*. Isso significa que quando você programa na sua máquina e faz um "clone" ou "push" para o GitHub, **o seu computador físico guarda uma cópia exata e idêntica de todo o histórico do projeto**.
 
-<br>
-Se um meteoro caísse nos servidores do GitHub hoje e a empresa sumisse do mapa, o seu projeto continuaria intacto no disco rígido do seu computador. Bastaria você criar uma conta em um concorrente gratuito (como o **GitLab** ou **Bitbucket**), subir o seu código para lá e apontar a Vercel para esse novo endereço. Você não perde um único dia de trabalho.
+>Se um meteoro caísse nos servidores do GitHub hoje e a empresa sumisse do mapa, o seu projeto continuaria intacto no disco rígido do seu computador.
+>Bastaria você criar uma conta em um concorrente gratuito (como o **GitLab** ou **Bitbucket**), subir o seu código para lá e apontar a Vercel para esse novo endereço. Você não perde um único dia de trabalho.

@@ -213,3 +213,46 @@ Se você quer manter o seu projeto **gratuito e com código privado**, a combina
 > **Código no GitHub (Privado) + Hospedagem na Vercel ou Netlify + Seu Domínio Próprio.**
 > 
 O fluxo de atualização continua profissional: você altera o código no seu computador, envia para o GitHub, a Vercel/Netlify percebe a mudança, roda os scripts de segurança que criamos na resposta anterior e atualiza o seu domínio próprio em segundos.
+
+---
+## Se existem riscos de perda de repositórios ou arquivos por estar usando contas gratuítas no github ou Vercel/netlify
+---
+**Não há nenhum histórico ou risco real de você perder o seu repositório ou os seus arquivos** por adotar essa estratégia usando a conta gratuita do GitHub.
+
+<br>
+Essa combinação (GitHub Privado + Vercel/Netlify) não é um "jeitinho" ou uma brecha no sistema; ela é uma das arquiteturas mais consolidadas, oficiais e recomendadas do desenvolvimento web moderno, conhecida como **JAMstack**.
+
+<br>
+O plano gratuito do GitHub é extremamente generoso por uma decisão estratégica da Microsoft (dona do GitHub) para atrair desenvolvedores. No entanto, para que você fique 100% tranquilo, vale a pena entender quais são as regras do jogo e os únicos cenários onde alguém corre o risco de perder uma conta.
+
+### Por que o seu código está seguro no plano gratuito do GitHub?
+
+#### 1. Repositórios privados gratuitos são vitalícios e oficiais
+Até 2019, o GitHub cobrava para quem queria ter repositórios privados. Quando a Microsoft comprou a plataforma, ela mudou a estratégia e liberou **repositórios privados ilimitados** para contas gratuitas. Não existe um "período de testes" e eles não vão deletar seu código para te forçar a pagar o plano Pro.
+
+#### 2. A Vercel e a Netlify são parceiras oficiais do GitHub
+Ambas as plataformas possuem aplicativos oficiais dentro do *GitHub Marketplace*. Quando você conecta a Vercel ao seu GitHub, você está usando uma integração autorizada por eles via protocolo OAuth seguro. O GitHub sabe exatamente o que a Vercel está fazendo e incentiva essa conexão.
+
+### Os únicos riscos reais (E como evitá-los)
+Para que o GitHub ou a Vercel bloqueiem uma conta ou removam um arquivo, é preciso que o usuário viole os **Termos de Serviço** das empresas. Os riscos reais resumem-se a três pontos:
+
+#### 1. Violar direitos autorais ou termos de uso (O maior risco)
+Se o arquivo que você está guardando no repositório privado for um filme pirata, software craqueado, dados vazados de terceiros ou se o seu site violar leis de direitos autorais (DMCA), o GitHub pode remover o conteúdo ou suspender a conta caso receba uma denúncia ou se os filtros automatizados detectarem a irregularidade.
+ * **Como evitar:** Use o repositório apenas para os códigos e arquivos de texto legítimos do seu próprio projeto.
+
+#### 2. Armazenar arquivos gigantescos (Limite de tamanho)
+O GitHub não é um substituto do Google Drive ou Dropbox. Ele foi feito para códigos (arquivos de texto). Se você tentar subir vídeos em alta definição, instaladores de programas (.exe, .dmg) ou bancos de dados gigantescos dentro do repositório, você começará a receber avisos do sistema. O limite recomendado por repositório é de **1 GB a 5 GB**.
+ * **Como evitar:** Se o seu projeto precisa de imagens muito pesadas ou vídeos, hospede esses arquivos de mídia em serviços próprios para isso (como Google Drive, Cloudinary ou AWS S3) e coloque apenas o *link* deles dentro do seu código.
+
+#### 3. Uso comercial pesado no plano gratuito da Vercel/Netlify
+A Vercel e a Netlify permitem que você use os planos gratuitos para projetos pessoais, portfólios ou sites de teste. Se o seu site por assinatura começar a faturar muito alto ou consumir uma quantidade absurda de largura de banda (tráfego de dados de milhares de visitantes simultâneos), elas não vão deletar seu código no GitHub, mas podem congelar temporariamente o site e pedir para você assinar o plano pago delas (que custa em torno de $20/mês).
+ * **Como evitar:** Fique de olho no painel de controle delas. O limite de tráfego gratuito costuma ser de **100 GB por mês**, o que é mais do que suficiente para sites de pequeno e médio porte.
+
+### O "Seguro de Vida" do Programador: O Git é Descentralizado
+O motivo final pelo qual você nunca perderá seus arquivos é a própria natureza do **Git**.
+
+<br>
+O Git é um sistema de controle de versão *distribuído*. Isso significa que quando você programa na sua máquina e faz um "clone" ou "push" para o GitHub, **o seu computador físico guarda uma cópia exata e idêntica de todo o histórico do projeto**.
+
+<br>
+Se um meteoro caísse nos servidores do GitHub hoje e a empresa sumisse do mapa, o seu projeto continuaria intacto no disco rígido do seu computador. Bastaria você criar uma conta em um concorrente gratuito (como o **GitLab** ou **Bitbucket**), subir o seu código para lá e apontar a Vercel para esse novo endereço. Você não perde um único dia de trabalho.

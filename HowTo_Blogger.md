@@ -1,6 +1,7 @@
 # Blogger
 
 ## O Blogger
+---
 O **Blogger** é uma das plataformas de gerenciamento de conteúdo (CMS) mais antigas e conhecidas da internet. Criado pela Pyra Labs em 1999 e comprado pela Google em 2003, ele foi um dos grandes responsáveis por popularizar a cultura dos blogs nos anos 2000, permitindo que qualquer pessoa publicasse textos na web sem precisar entender de programação.
 
 <br>
@@ -88,7 +89,7 @@ Como o desenvolvimento do zero pode ser trabalhoso devido às tags proprietária
 
 ----
 ## Configurando domínio próprio no Blogger
-
+---
 Configurar um domínio próprio (como [www.seusite.com](https://www.seusite.com) em vez de seusite.blogspot.com) é o passo mais importante para dar uma cara profissional ao seu blog.
 O processo é dividido em duas partes: você avisa o Blogger sobre o novo endereço, pega os códigos de verificação dele e depois insere esses códigos na empresa onde você comprou o domínio (Registro.br, GoDaddy, Namecheap, etc.).
 ### Parte 1: Gerando as chaves de verificação no Blogger
@@ -146,7 +147,7 @@ No momento em que você insere a chave CNAME exclusiva dentro do painel de contr
 
 -----
 ## Como evoluir o aprendizado do Blogger
-
+---
 Como o Blogger (Blogspot) utiliza uma linguagem proprietária baseada em XML misturada com HTML/CSS, o mercado de livros físicos sobre o assunto ficou obsoleto muito rápido. Hoje, nenhum livro impresso ensinará você a criar layouts modernos e responsivos para o Blogger.
 
 <br>
@@ -171,3 +172,31 @@ Se você quer se tornar um especialista em customização de Blogger, o caminho 
  1. **Aprenda HTML5 e CSS3 básico:** Sem isso, você não conseguirá mexer na identidade visual do blog (cores, margens, fontes, grid).
  2. **Entenda a lógica de Condicionais do Blogger:** Aprenda a usar a tag <b:if cond='...'>. É ela quem diz para o código: *"Se o usuário estiver na página inicial, mostre o banner; se ele estiver dentro de um post, esconda o banner"*. Isso é o que separa um layout amador de um profissional.
  3. **Estude o framework Bootstrap integrado ao Blogger:** Os templates profissionais mais modernos usam a estrutura de código do Bootstrap dentro do código do Blogger para gerenciar o layout de forma que ele se adapte perfeitamente a celulares, tablets e computadores.
+
+----
+## Tratando o acesso ao Blogger para somente convidados ou assinantes
+----
+**Sim, é perfeitamente possível**, mas com uma limitação técnica crucial que você precisa conhecer antes de desenhar o seu modelo de negócios.
+O Blogger possui uma ferramenta nativa de controle de acesso que permite fechar o blog e liberar a leitura apenas para pessoas convidadas por e-mail. No entanto, por ser uma ferramenta gratuita, o Google impõe um teto rígido de usuários.
+### Como funciona o bloqueio nativo
+Se você ativar essa função, qualquer pessoa que digitar o seu domínio próprio dará de cara com uma tela de login do Google. Ela só conseguirá ver o conteúdo do blog se o e-mail dela estiver na sua lista de autorizados e se ela tiver aceitado o seu convite.
+#### O Passo a Passo para Configurar:
+ 1. No painel do Blogger, vá em **Configurações**.
+ 2. Role até a seção **Permissões** e clique em **Acesso à leitura**.
+ 3. Mude de *Público* para **Leitores personalizados** (ou *Leitores convidados*).
+ 4. Clique em **Convidar mais leitores** e digite o e-mail das pessoas que pagaram a assinatura.
+ 5. Clique em **Salvar**.
+O cliente receberá um e-mail do Google com um link. Ele clica, faz login com a Conta Google dele e o acesso ao seu domínio próprio é liberado automaticamente.
+## O Grande Obstáculo: O Limite de 100 Usuários
+> ⚠️ **A Linha de Corte:** O Blogger possui um limite máximo de **100 leitores personalizados** por blog.
+> 
+Se o seu projeto for um clube de membros ultra exclusivo, uma mentoria para pouquíssimas pessoas ou um portal corporativo interno, o Blogger atenderá perfeitamente e sem custos extras.
+Por outro lado, se a sua intenção é criar um site por assinatura (Paywall) de grande escala, para centenas ou milhares de assinantes, **o Blogger não vai servir**, pois você atingirá o teto rapidamente e o sistema não permite pagar para aumentar esse limite.
+### Existe alguma alternativa para burlar isso no Blogger?
+Alguns desenvolvedores tentam usar scripts de terceiros (como Memberful, MemberSpace ou Locksmith) inseridos via código HTML no Blogger para bloquear páginas e exigir um cadastro.
+**Por que isso não é recomendado no Blogger?**
+Como o Blogger entrega todo o código do post para o navegador do usuário para depois rodar o script de bloqueio, qualquer usuário com um pouquinho de conhecimento técnico consegue desativar o JavaScript do navegador ou abrir o "Modo de Inspeção" (F12) e ler o seu conteúdo pago sem desembolsar um centavo. Não há segurança real no servidor para conteúdos restritos em massa.
+### O que fazer se você precisar de escala?
+Se a sua ideia de site por assinatura passar de 100 membros, o caminho profissional ideal é migrar para plataformas preparadas para isso:
+ * **WordPress (Hospedado):** Usando plug-ins como *MemberPress* ou *Restrict Content Pro*. O bloqueio é feito direto no servidor, sendo 100% seguro.
+ * **Substack / Ghost:** Plataformas modernas e feitas especificamente para newsletters e portais de conteúdo por assinatura, onde o sistema de pagamento e o bloqueio de posts já vêm prontos de fábrica.

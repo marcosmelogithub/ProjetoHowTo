@@ -1,6 +1,6 @@
 # Blogger
 
-## O Blogger
+## O que é o Blogger
 ---
 O **Blogger** é uma das plataformas de gerenciamento de conteúdo (CMS) mais antigas e conhecidas da internet. Criado pela Pyra Labs em 1999 e comprado pela Google em 2003, ele foi um dos grandes responsáveis por popularizar a cultura dos blogs nos anos 2000, permitindo que qualquer pessoa publicasse textos na web sem precisar entender de programação.
 
